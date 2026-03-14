@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FLAVORGO | Evaluation</title>
+  <link rel="icon" href="img/logo.ico" />
+  <link rel="stylesheet" href="css/evaluation.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <div class="brand">
+        <a href="index.html"><img src="img/logo.jpg" alt="FLAVORGO Logo"></a>
+        <h2>FLAVORGO</h2>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <span class="active">Customer</span>
+        <a href="owner.html">Owner</a>
+      </div>
+
+      <div class="nav-right">
+        <img src="img/sun.png" alt="Toggle Theme" id="theme-toggle" class="theme-toggle">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Evaluation -->
+  <section class="evaluation-section">
+    <div class="container">
+      <div class="evaluation-wrap">
+
+        <div class="thankyou-box">
+          <h1><span class="thank-highlight">Thank You</span> for Your Order !</h1>
+          <p>
+            Your order has been submitted successfully. We’d love to hear your feedback
+            about the restaurant and your experience.
+          </p>
+        </div>
+
+        <div class="evaluation-card">
+            <div class="evaluation-topbar">
+            <a href="index.html" class="back-link">← Back to Home</a>
+            <h2>Rate Your Experience</h2>
+            </div>
+
+          <form id="evaluationForm" action="#" method="post">
+            <div class="form-grid">
+              <div class="field-group">
+                <label>Rate this restaurant</label>
+                    <div class="stars-row">
+                    <button type="button" class="star-btn" data-value="1">☆</button>
+                    <button type="button" class="star-btn" data-value="2">☆</button>
+                    <button type="button" class="star-btn" data-value="3">☆</button>
+                    <button type="button" class="star-btn" data-value="4">☆</button>
+                    <button type="button" class="star-btn" data-value="5">☆</button>
+                    </div>
+                <input type="hidden" id="selectedRating" value="0">
+              </div>
+
+              <div class="field-group">
+                <label for="textarea">Your feedback</label>
+                <textarea id="textarea" name="textarea" placeholder="Write your feedback here..."></textarea>
+              </div>
+              <div class="divider"></div>
+
+              <div class="field-group">
+                <label for="restSelect">Rate a previous restaurant</label>
+                <select id="restSelect" name="restaurant">
+                  <option selected hidden value="">Choose a restaurant</option>
+                  <option value="KFC">KFC</option>
+                  <option value="Krispy Kreme">Krispy Kreme</option>
+                </select>
+              </div>
+
+              <div class="submit-row">
+                <button type="submit" class="submit">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="img/logo.jpg" alt="FLAVORGO Logo">
+            <div>
+              <h3>FLAVORGO</h3>
+              <p>
+                Bringing your favorite meals closer with a modern, smooth,
+                and flavorful delivery experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="socials">
+            <a href="https://www.instagram.com/FLAVORGO" target="_blank">📷</a>
+            <a href="mailto:contact@flavorgo.com">✉️</a>
+            <a href="tel:+1234567890">📞</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="restaurants.html">Customer</a>
+          <a href="owner.html">Owner</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>Email: contact@flavorgo.com</p>
+          <p>Phone: +123 456 7890</p>
+          <p>Available every day for your cravings</p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        &copy; 2024 FLAVORGO. Powered by Group 11.
+      </div>
+    </div>
+  </footer>
+
+<script src="js/evaluation.js"></script>
+</body>
+</html>
