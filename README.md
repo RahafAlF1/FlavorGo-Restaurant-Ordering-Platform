@@ -1,6 +1,5 @@
 # FlavorGo
 
-## Restaurant Ordering Platform
 
 <p align="center">
   <img src="FLAVORGO-main/img/logo.jpg" alt="FlavorGo Logo" width="220">
